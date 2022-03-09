@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+ * {
+     margin:0;
+	   padding:0;
+      font-size:104%;
+      line-height:28px;
+    }
+
+
+    body {
+      font-family: 'Raleway', sans-serif;
+    }
+    section {
+      max-width:960px;
+      margin-left:auto;
+      margin-right:auto;
+      padding:20px 0;
+    }
+    h2 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      font-size:48px;
+      text-align: center;
+      padding:20px 0;
+      font-family: 'Srisakdi', cursive;
+    }
+    h3 {
+      font-family: 'Srisakdi', cursive;
+      text-align: center;
+      color:#800000;
+    }
+    p {
+      margin:15px 0;
+      margin-right: auto;
+      margin-left:auto ;
+    }
+    main {
+      max-width:960px;
+      margin-left:auto;
+      margin-right:auto;
+    }
+    #hero {
+      height:400px;
+      background-image:url(images/bkg.jpg);
+      background-size:cover;
+    }
+}
+.lunchbanner {
+  background-image:url(images/banner.jpg);
+  background-size:cover;
+  height:300px;
+}
+.dessertbanner {
+  background-image:url(images/banner2.jpg);
+  background-size:cover;
+  height:300px;
+}
+footer {
+  background-image:url(images/footer.jpg);
+  height:300px;
+  background-size:cover;
+  background-position: bottom;
+  padding:15px;
+  text-align: center;
+  color:white;
+
+}
+/* ADD CSS BELOW */
+
+html {
+  background-color: whitesmoke;
+}
+
+section:nth-child(5) {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+}
+
+section:nth-child(7) {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+}
+section:nth-child(10) {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+}
+section p{
+  display: block;
+  margin-left: auto;
+  margin margin-right: auto;
+}
+
+section div h3 {
+ padding-right: 50px;
+ 
+}
+section {
+  display: flex;
+  max-width: 960px;
+ 
+}
+
+section div p{
+ display: block;
+ padding-right: 50px;
+ align-content: center;
+ align-items: center;
+}
+
+main h2 {
+ padding-top: 75px;
+ 
+}
+main div {
+  display: flex;
+  flex: 1;
+  padding-top: 50px;
+}
+
+main p {
+  padding-left: 25px;
+  padding-right: 20px;
+}
+
+nav ul {
+	list-style-type:none;
+	display:flex;
+}
+nav a {
+	text-decoration:none;
+	color:green;
+	font-size:30px;
+	padding-top:20px;
+	padding-bottom:20px;
+	display:block;
+	padding-left:30px;
+	padding-right:30px;
+}
+nav a:hover {
+	background-color:green;
+	color:white;
+	padding-left:60px;
+	padding-right:60px;
+}
+
+
+
+
+
+
